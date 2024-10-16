@@ -13,15 +13,14 @@ my-portfolio/
 ├── package.json
 └── README.md
 
-// src/components/Header.js
 import React from 'react';
-import './Header.css'; // Assuming you want custom styles 
+import './Header.css'; 
 
 const Header = () => {
   return (
     <header className="header">
       <div className="overlay">
-        <h1>Your Name</h1>
+        <h1>Tameka Grant</h1>
       </div>
     </header>
   );
@@ -29,7 +28,6 @@ const Header = () => {
 
 export default Header;
 
-// src/components/About.js
 import React from 'react';
 
 const About = () => {
@@ -45,15 +43,14 @@ const About = () => {
 
 export default About;
 
-// src/components/Contact.js
 import React from 'react';
 
 const Contact = () => {
   return (
     <section>
       <h2>Contact Me</h2>
-      <p>Email: yourname@example.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your LinkedIn Profile</a></p>
+      <p>Email: tamekagrant12@gmail.com</p>
+      <p>LinkedIn: <a href="www.linkedin.com/in/tameka-grant-1b0478157">my LinkedIn Profile</a></p>
     </section>
   );
 };
@@ -79,7 +76,6 @@ function App() {
 
 export default App;
 
-/* src/components/Header.css */
 .header {
   height: 300px;
   background-image: url('https://via.placeholder.com/1500x300');
@@ -94,44 +90,3 @@ export default App;
   font-size: 3em;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
-
-{
-  "name": "my-portfolio",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
-}
-
-npx create-react-app my-portfolio
-cd my-portfolio
-
-npm install
-npm start
